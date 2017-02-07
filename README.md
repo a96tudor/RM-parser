@@ -29,7 +29,7 @@ In order to install this project, you have to perform a few basic operations : <
 ```
 It might give you an error (i.e. *Permission denied*). If it does so, just run : 
 ```bash
-sudo ./compile.sh
+sudo bash compile.sh
 ```
 (4) Run the application by, typing : 
 ```bash
