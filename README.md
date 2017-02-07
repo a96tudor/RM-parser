@@ -35,10 +35,13 @@ sudo bash compile.sh
 ```bash
 ./run.sh
 ```
-to the console. <br \>
+to the console. If this gives an error too, just try :
+```bash
+sudo bash run.sh
+```
 (5) Follow the instructions from the UI to enter the register machine
 
 ## License
 
-This project is available under standard MIT licence. See [LICENSE.md](LICENSE.md) file for details.
+This project is available under standard MIT licence. See [LICENSE](LICENSE.md) file for details.
  
