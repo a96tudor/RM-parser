@@ -1,1 +1,2 @@
-javac Main.java 
+javac Main.java
+echo "Project compiled successfully"
