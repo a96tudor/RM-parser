@@ -2,11 +2,13 @@ package ins;
 
 /**
  * ins.Register.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ *
+ * Class representing a register. It can store any natural number (including 0) and perform operations, such as :
+ *       (1) increment
+ *       (2) decrement
+ *       (3) check if 0
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
  */
 public class Register {
 
@@ -58,7 +60,7 @@ public class Register {
     *    If the content is 0, it does nothing
     */
    public void decrement() {
-      if (mContent >0 ) mContent--;
+      if (mContent > 0 ) mContent--;
    }
 
    /**

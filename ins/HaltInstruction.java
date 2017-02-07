@@ -2,11 +2,11 @@ package ins;
 
 /**
  * HaltInstruction.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ *
+ *    A simple class, representing the HALT instruction
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+ *
  */
 public class HaltInstruction implements Instruction{
 

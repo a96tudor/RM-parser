@@ -2,14 +2,14 @@ package parsers;
 
 /**
  * UIParser.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
- */
+ *
+ *    A parser that reads the information from stdin
+ *
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+*/
 
-import ins.Register;
+ import ins.Register;
 import ins.Instruction;
 import str.ErrorMessages;
 import str.UIMessages;

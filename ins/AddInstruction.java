@@ -1,12 +1,12 @@
 package ins;
 
 /**
- * AddInstruction.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ * ins.AddInstruction.java
+ *
+ * Class representing an add instruction.
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+ *
  */
 
 public class AddInstruction implements Instruction{

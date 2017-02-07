@@ -2,11 +2,14 @@ package ins;
 
 /**
  * BranchInstruction.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ *
+ *    A class representing a branch instruction.
+ *    The behaviour is as follows :
+ *        - If the contents of the register is 0, it returns the 2nd line number
+ *        - Otherwise, it decrements the register and returns the 1st line number
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+ *
  */
 public class BranchInstruction implements Instruction{
 
@@ -48,8 +51,6 @@ public class BranchInstruction implements Instruction{
     */
    @Override
    public void execute() {
-      if (taken) {
-         mReg.decrement();
-      }
+      mReg.decrement();
    }
 }

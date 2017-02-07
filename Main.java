@@ -3,9 +3,8 @@
  *
  *    Main Class for a register machine interpreter
  *
- *       © Tudor Avram -- 03/02/17
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ * MIT Standard Licence -- © Tudor Avram -- 03/02/17
+ *
  */
 
 import ins.HaltInstruction;

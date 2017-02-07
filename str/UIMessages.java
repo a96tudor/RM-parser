@@ -2,11 +2,11 @@ package str;
 
 /**
  * UIMessages.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ *
+ *    A class storing all the messages that are being printed to the UI
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+ *
  */
 public class UIMessages {
 

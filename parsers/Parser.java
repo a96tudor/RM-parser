@@ -7,11 +7,11 @@ import java.util.ArrayList;
 
 /**
  * Parser.java
- * TODO : complete with functionality
- * <p>
- * Created by © Tudor Avram on 03/02/17.
- * Homerton College, University of Cambridge
- * tma33@cam.ac.uk
+ *
+ *    An abstract class implementing a parser.
+ *
+ * MIT Standard Licence -- © Tudor Avram on 03/02/17.
+ *
  */
 
 public abstract class Parser {
@@ -24,6 +24,14 @@ public abstract class Parser {
    public abstract ArrayList<Instruction> getInstructions();
 
    public abstract int getFirstInstruction();
+
+   /**
+    *    CONSTRUCTOR
+    */
+   public Parser() {
+      mRegisters = new ArrayList<>();
+      mInstructions = new ArrayList<>();
+   }
 
    /**
     *       Method that takes an input as a string,
