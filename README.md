@@ -33,11 +33,12 @@ sudo bash compile.sh
 ```
 (4) Run the application by, typing : 
 ```bash
-./run.sh
+java Main 
 ```
-to the console. If this gives an error too, just try :
+to the console. If you want to have a log of instruction, run it like this :
+
 ```bash
-sudo bash run.sh
+java Main -log
 ```
 (5) Follow the instructions from the UI to enter the register machine
 

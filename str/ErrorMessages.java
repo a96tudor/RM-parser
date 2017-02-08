@@ -16,4 +16,7 @@ public class ErrorMessages {
    public static final String INSTRUCTION_FORMAT_ERROR = "The format of the instruction is eronate. Please try again.";
    public static final String INDEX_OUT_OF_RANGE_ERROR = "Ooops. It looks like this index is out of range :(. We'll just set it to 0 for you.";
 
+   public static final String FAILED_TO_WRITE_LOG = "We failed to write to the log file.";
+   public static final String FAILED_OPEN_LOG_FILE = "We failed to open the log file";
+
 }

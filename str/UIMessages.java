@@ -32,7 +32,7 @@ public class UIMessages {
    public static final String GET_STARTING_INSTRUCTION =
            "Please specify the starting instruction for your register machine in the format : Lx";
 
-   private static final String DELIMITER_MESSAGE =
+   public static final String DELIMITER_MESSAGE =
            "---------------------------------------------------------------------------------------------------";
 
    public static void printDelimiter() {
