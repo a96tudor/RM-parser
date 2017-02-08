@@ -33,24 +33,17 @@ public class BranchInstruction implements Instruction{
    }
 
    /**
-    *    Method that returns the accurate index of the next instruction
-    * @return  - mNextTaken if the branch is taken
-    *          - mNextNotTaken otherwise
+    *    Method that executes the instruction (i.e. decrements mReg)
+    *
+    *    @return the index of the next instruction
     */
    @Override
-   public int getNext() {
+   public int execute() {
+      mReg.decrement();
       if (taken) {
          return mNextTaken;
       } else {
          return mNextNotTaken;
       }
-   }
-
-   /**
-    *    Method that executes the instruction (i.e. decrements mReg)
-    */
-   @Override
-   public void execute() {
-      mReg.decrement();
    }
 }

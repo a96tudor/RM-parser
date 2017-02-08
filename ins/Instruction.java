@@ -10,15 +10,12 @@ package ins;
  */
 public interface Instruction {
 
-   /**
-    *     Method that returns the next instruction
-    * @return  The ID of the next instruction, as an int if it's a 'normal' instruction and -1 otherwise
-    */
-   public int getNext();
 
    /**
-    *     Method that executes the given instruction
+    *     Method that executes the instruction
+    *
+    *     @return the next line number
     */
-   public void execute();
+   public int execute();
 
 }

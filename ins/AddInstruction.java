@@ -27,19 +27,12 @@ public class AddInstruction implements Instruction{
 
    /**
     *    Increments the contents of the register
-    */
-   @Override
-   public void execute() {
-      mReg.inc();
-   }
-
-   /**
-    *    Method that returns the index of the next instruction
     *
-    * @return  the index of the next instruction
+    *    @return the index of the next instruction
     */
    @Override
-   public int getNext() {
+   public int execute() {
+      mReg.inc();
       return mNext;
    }
 

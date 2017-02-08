@@ -14,12 +14,9 @@ public class HaltInstruction implements Instruction{
       super();
    }
 
-   public int getNext() {
+
+   public int execute() {
       return -1;
-   }
-
-   public void execute() {
-
    }
 
 }

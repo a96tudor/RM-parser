@@ -27,9 +27,12 @@ public class Main {
       int cnt = 0;
       while (!(mInstructions.get(curr) instanceof HaltInstruction)) {
          Instruction ins = mInstructions.get(curr);
-         ins.execute();
+         curr = ins.execute();
+         if (curr >= mInstructions.size()) {
+            // we halt the execution of the machine
+            break;
+         }
          //printResults();
-         curr = ins.getNext();
          cnt++;
       }
 
