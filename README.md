@@ -40,6 +40,10 @@ to the console. If you want to have a log of instruction, run it like this :
 ```bash
 java Main -log
 ```
+By default, the log is going to be created in the "log.txt" file. If you want to save it in your own file, just type : 
+```bash
+java Main -log <file_name>
+```
 (5) Follow the instructions from the UI to enter the register machine
 
 ## License
