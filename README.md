@@ -48,5 +48,5 @@ java Main -log <file_name>
 
 ## License
 
-This project is available under standard MIT licence. See [LICENSE](LICENSE.md) file for details.
+This project is available under standard MIT licence. See [LICENSE](LICENSE) file for details.
  
